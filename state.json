@@ -6,10 +6,46 @@
       "time": "2026-06-29T10:30:00",
       "price": 475000.0,
       "detected_at": "2026-06-29T17:54:24+03:00"
+    },
+    "DSTKF_30m": {
+      "time": "2026-06-29T15:00:00",
+      "price": 3550.0,
+      "detected_at": "2026-06-29T18:38:29+03:00"
+    },
+    "GSDHO_30m": {
+      "time": "2026-06-29T15:00:00",
+      "price": 5.87,
+      "detected_at": "2026-06-29T18:38:29+03:00"
+    },
+    "HEDEF_30m": {
+      "time": "2026-06-29T15:00:00",
+      "price": 153.5,
+      "detected_at": "2026-06-29T18:38:29+03:00"
+    },
+    "TEHOL_30m": {
+      "time": "2026-06-29T15:00:00",
+      "price": 37.2,
+      "detected_at": "2026-06-29T18:38:29+03:00"
     }
   },
   "last_sent_rsi_macd": {},
-  "last_sent_ema": {},
+  "last_sent_ema": {
+    "DSTKF_30m": {
+      "time": "2026-06-29T15:00:00",
+      "price": 3550.0,
+      "detected_at": "2026-06-29T18:38:29+03:00"
+    },
+    "ODINE_30m": {
+      "time": "2026-06-29T15:00:00",
+      "price": 1890.0,
+      "detected_at": "2026-06-29T18:38:29+03:00"
+    },
+    "TEHOL_30m": {
+      "time": "2026-06-29T15:00:00",
+      "price": 37.2,
+      "detected_at": "2026-06-29T18:38:29+03:00"
+    }
+  },
   "last_sent_macd_cross": {},
   "last_sent_h8": {},
   "last_sent_i9": {},
@@ -21,9 +57,66 @@
       "bar_time": "2026-06-29T10:30:00",
       "detected_at": "2026-06-29T17:54:24+03:00",
       "price": 475000.0
+    },
+    {
+      "symbol": "DSTKF",
+      "period": "30m",
+      "strategy": "new_scan",
+      "bar_time": "2026-06-29T15:00:00",
+      "detected_at": "2026-06-29T18:38:29+03:00",
+      "price": 3550.0
+    },
+    {
+      "symbol": "DSTKF",
+      "period": "30m",
+      "strategy": "ema",
+      "bar_time": "2026-06-29T15:00:00",
+      "detected_at": "2026-06-29T18:38:29+03:00",
+      "price": 3550.0
+    },
+    {
+      "symbol": "GSDHO",
+      "period": "30m",
+      "strategy": "new_scan",
+      "bar_time": "2026-06-29T15:00:00",
+      "detected_at": "2026-06-29T18:38:29+03:00",
+      "price": 5.87
+    },
+    {
+      "symbol": "HEDEF",
+      "period": "30m",
+      "strategy": "new_scan",
+      "bar_time": "2026-06-29T15:00:00",
+      "detected_at": "2026-06-29T18:38:29+03:00",
+      "price": 153.5
+    },
+    {
+      "symbol": "ODINE",
+      "period": "30m",
+      "strategy": "ema",
+      "bar_time": "2026-06-29T15:00:00",
+      "detected_at": "2026-06-29T18:38:29+03:00",
+      "price": 1890.0
+    },
+    {
+      "symbol": "TEHOL",
+      "period": "30m",
+      "strategy": "new_scan",
+      "bar_time": "2026-06-29T15:00:00",
+      "detected_at": "2026-06-29T18:38:29+03:00",
+      "price": 37.2
+    },
+    {
+      "symbol": "TEHOL",
+      "period": "30m",
+      "strategy": "ema",
+      "bar_time": "2026-06-29T15:00:00",
+      "detected_at": "2026-06-29T18:38:29+03:00",
+      "price": 37.2
     }
   ],
   "last_successful_scans": {
-    "2026-06-29_17:15": "2026-06-29 17:54:34"
+    "2026-06-29_17:15": "2026-06-29 17:54:34",
+    "2026-06-29_18:30": "2026-06-29 18:38:49"
   }
 }
